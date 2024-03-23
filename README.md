@@ -40,7 +40,8 @@ Ending the Game:
 Players can choose to quit the game at any time by selecting the "Quit" option.
 The game ends automatically in Version 2 when all financial goals are achieved or when players decide to quit.
 
-## Testing Instructions
+## Testing Instructions for Version 2
+I skip the testing for version 1 and move to version 2. 
 
 ### Correct Display of Messages
 
