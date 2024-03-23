@@ -3,7 +3,7 @@ Welcome to the Stock, Dividend, and Interest Game! This interactive financial de
 
 ## Features
 Version 1:
-Basic Gameplay: Start with $10000 and make financial decisions.
+Basic Gameplay: Start with $15000 and make financial decisions.
 Trade Stocks: Buy or sell stocks with randomly generated prices.
 Receive Dividends: Random dividends add to your balance.
 Earn Interest: Interest accumulates on your balance.
