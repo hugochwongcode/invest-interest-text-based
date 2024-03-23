@@ -22,7 +22,7 @@ Starting Conditions:
 Players start the game with a balance of $15000. There are no stocks owned initially. Financial goals are predefined but can be adjusted in Version 2 of the game.
 
 ## Gameplay:
-To play the game, download the code from the GitHub repository and run it in Jupyter Notebook or Google Colab. 
+To play the game, download the file from the GitHub repository and run it in Jupyter Notebook or Google Colab. 
 
 Trading Stocks: Players can choose to buy or sell stocks. Stock prices are randomly generated between $50 and $250.Maximum affordable shares depend on the available balance and can't exceed 100 shares per transaction.
 Receiving Dividends: Random dividends between $5 and $30 are received periodically.
