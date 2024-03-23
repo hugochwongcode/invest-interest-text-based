@@ -40,6 +40,34 @@ Ending the Game:
 Players can choose to quit the game at any time by selecting the "Quit" option.
 The game ends automatically in Version 2 when all financial goals are achieved or when players decide to quit.
 
+## Testing Instructions
+
+### Correct Display of Messages
+
+- **After Buying Shares**: Ensure that the game displays the correct messages after the player buys any shares of stock.
+
+- **After Selling Shares**: Verify that the game shows the correct messages after the player sells any shares of stock.
+
+### Handling Dividends
+
+- **Player Should Not Receive Dividends Without Owning Shares of Stock**:
+  - `owned_shares` is a parameter to keep track of the shares owned by the player throughout the game. 
+  - The game logic is updated to check the `owned_shares` dictionary when determining if the player is eligible to receive dividends.
+
+#### Player Buys Stock
+
+- After the player buys stocks, the game keeps track of the owned shares.
+- When the player requests a dividend, the game checks if the player owns any shares. If so, the player receives a dividend.
+
+#### Player Sells Stock
+
+- If the player sells all their shares of a stock, the game updates the owned shares accordingly.
+- When the player requests a dividend, the game checks if the player owns any shares. If the player sold all their shares, they won't receive a dividend.
+
+#### Player Does Not Hold Any Shares
+
+- If the player doesn't hold any shares of any stock, they won't receive a dividend when requested.
+
 ## License
 This project is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3 - see the LICENSE file for details.
 
