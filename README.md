@@ -19,7 +19,7 @@ Objective:
 The objective of the game is to manage your finances effectively and achieve your financial goals.
 
 Starting Conditions:
-Players start the game with a balance of $10000. There are no stocks owned initially. Financial goals are predefined but can be adjusted in Version 2 of the game.
+Players start the game with a balance of $15000. There are no stocks owned initially. Financial goals are predefined but can be adjusted in Version 2 of the game.
 
 ## Gameplay:
 To play the game, download the code from the GitHub repository and run it in Jupyter Notebook or Google Colab. 
